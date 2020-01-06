@@ -1,0 +1,57 @@
+.user-author {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+}
+.instructor-Name {
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+}
+.user-author-image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-image {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card-title h5 {
+  color: rgb(77, 76, 76);
+}
+
+.cardSize:hover {
+  box-shadow: 0 0 31px rgba(134, 134, 134, 0.2);
+  color: "none";
+}
+.details {
+  color: grey;
+}
+.cardSize {
+  width: 280px !important;
+  color: #8a92a3 !important;
+  margin-right: 10px !important;
+}
+
+
+@media (max-width: 2500px) {
+  .cardSize {
+    width: 400px;
+  }
+}
+
+.cardSize {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
